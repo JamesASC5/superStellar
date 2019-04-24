@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="login.js" defer></script>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+ // Initialize Firebase
+ var config = {
+   apiKey: "AIzaSyAJyTPaR2Bv8eMGG_e0L-swI2yfk-aWRuA",
+   authDomain: "userpass-2776a.firebaseapp.com",
+   databaseURL: "https://userpass-2776a.firebaseio.com",
+   projectId: "userpass-2776a",
+   storageBucket: "userpass-2776a.appspot.com",
+   messagingSenderId: "210542379195"
+ };
+ firebase.initializeApp(config);
+</script>
+</head>
+<body>
+    <div id = "all">
+        <div id = "title">
+                <h1>Fill in a Username and Password.</h1>
+            </div>
+            <div class="inputContainer">
+                <label for="Email">Email</label>
+                <input type="text" id="Email">
+            </div>
+            <div class="inputContainer">
+                <label for="password">Password</label>
+                <input type="text" id="password">
+            </div>
+            
+            <button id = "button" > Continue</button>
+        </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 40px;
+}
+.inputContainer{
+    padding: 15px;
+    font-size: 30px;
+}

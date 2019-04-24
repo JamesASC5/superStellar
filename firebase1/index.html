@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="main1.js"></script>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://i.dailymail.co.uk/i/pix/2017/12/15/14/4759E20400000578-0-image-a-75_1513348477962.jpg">
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+ // Initialize Firebase
+ var config = {
+   apiKey: "AIzaSyCW4QnYxFjLJYMwORiytfqtjHZIsN9bUGc",
+   authDomain: "firemesssage-cfe82.firebaseapp.com",
+   databaseURL: "https://firemesssage-cfe82.firebaseio.com",
+   projectId: "firemesssage-cfe82",
+   storageBucket: "",
+   messagingSenderId: "16299113303"
+ };
+ firebase.initializeApp(config);
+</script>
+
+</head>
+<body>
+    <!--Add your name-->
+   <h1>Animals</h1>
+   <img src="https://i.dailymail.co.uk/i/pix/2017/12/15/14/4759E20400000578-0-image-a-75_1513348477962.jpg" alt="">
+
+   <h2>Article</h2>
+   <h2>date</h2>
+
+   <!--This div will be populated with messages-->
+   <div class="allMessages">
+         
+        <div class="userContainer">
+                <form>
+                    <div class="inputContainer">
+                        <div class="singleInput">
+                            <label for="firstname">Firstname:</label>
+                            <input id="firstname" type="text">
+                        </div>
+                        <div class="singleInput">
+                             <label for="lastname">Lastname:</label>
+                             <input id="lastname" type="text">
+                         </div>
+                         <div class="singleInput">
+                                 <label for="date">Date:</label>
+                                 <input id="date" type="text">
+                             </div>
+                             <p>Message:</p>
+                        <div class="singleInput">
+                            <label for="message"></label>
+                            <input id="message" type="text">
+                        </div>
+                    </div>
+                    <button id="submitButton">Submit</button>
+                </form>
+            </div>
+   </div>
+</body>
+</html>

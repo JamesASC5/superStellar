@@ -1,0 +1,1 @@
+const smile = ":-D";console.log(smile);

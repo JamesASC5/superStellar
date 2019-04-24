@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+   <title>fireMessage</title>
+
+   <!--Go to https://console.firebase.google.com-->
+   <!--Sign in and add a project "fireMessage"-->
+   <!--PASTE SNIPPET HERE-->
+   
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+ // Initialize Firebase
+ var config = {
+   apiKey: "AIzaSyCW4QnYxFjLJYMwORiytfqtjHZIsN9bUGc",
+   authDomain: "firemesssage-cfe82.firebaseapp.com",
+   databaseURL: "https://firemesssage-cfe82.firebaseio.com",
+   projectId: "firemesssage-cfe82",
+   storageBucket: "",
+   messagingSenderId: "16299113303"
+ };
+ firebase.initializeApp(config);
+</script>
+
+
+
+   <!--custom files-->
+   <script src="main.js" defer></script>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!--Add your name-->
+   <!-- <h1>James's Messaging App</h1> -->
+
+   <!--This div will be populated with messages-->
+   <div id="allMessages">
+       <h1>Write your firstname ,lastname, and date, then leave a message to be posted on our blog.</h1>
+ 
+   
+   <!--For user to input messages-->
+   <div class="userContainer">
+       <form>
+           <div class="inputContainer">
+               <div class="singleInput">
+                   <label for="firstname">Firstname:</label>
+                   <input id="firstname" type="text">
+               </div>
+               <div class="singleInput">
+                    <label for="lastname">Lastname:</label>
+                    <input id="lastname" type="text">
+                </div>
+                <div class="singleInput">
+                        <label for="date">Date:</label>
+                        <input id="date" type="text">
+                    </div>
+                    <p>Message:</p>
+               <div class="singleInput">
+                   <label for="message"></label>
+                   <textarea id = "message" type = "text" rows="6" cols="50"></textarea>
+               </div>
+           </div>
+           <button id="submitButton">Submit</button>
+       </form>
+   </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    background: rgb(76, 98, 132);
+}
+p {
+    font-size: large;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+h2{
+    font-size: large;
+    text-align: center;
+    text-decoration-style: solid;
+}
+h3 {
+    font-size: large;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+
+h4{
+    font-size: large;
+    text-align: center;
+    word-spacing: 5px;
+}h5{
+    font-size: large;
+    text-align: center;
+    word-spacing: 5px;;
+}h6{
+    font-size: large;
+    text-align: center;
+    word-spacing: 5px;
+}h7{
+    font-size: large;
+    text-align: center; 
+    word-spacing: 90px;
+}h8{
+    font-size: large;
+    text-align: center;
+    word-spacing: 90px;
+}h9{
+    font-size: large;
+    text-align: center;
+    word-spacing: 90px;
+}h10{
+    font-size: large;
+    text-align: center;
+    word-spacing: 90px;
+}h11 {
+    font-size: large;
+    text-align: center;
+    word-spacing: 90px;
+}
+
+
+
+
+img{
+    width: 15%;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+   <title>Setup an account</title>
+
+   <!--Go to https://console.firebase.google.com-->
+   <!--Sign in and add a project "fireMessage"-->
+   <!--PASTE SNIPPET HERE-->
+   
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+ // Initialize Firebase
+ var config = {
+   apiKey: "AIzaSyCW4QnYxFjLJYMwORiytfqtjHZIsN9bUGc",
+   authDomain: "firemesssage-cfe82.firebaseapp.com",
+   databaseURL: "https://firemesssage-cfe82.firebaseio.com",
+   projectId: "firemesssage-cfe82",
+   storageBucket: "",
+   messagingSenderId: "16299113303"
+ };
+ firebase.initializeApp(config);
+</script>
+
+   <!--custom files-->
+   <script src="main.js" defer></script>
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+<body>
+
+   <!--Add your name-->
+   <!-- <h1>James's Messaging App</h1> -->
+
+   <!--This div will be populated with messages-->
+<div id = "all">
+    <div id = "title">
+        <h1>Fill in your account information.</h1>
+    </div>
+    <div class="inputContainer">
+            <label for="">Display Name</label>
+            <input type="text" id="groupname">
+        </div>
+    <div class="inputContainer">
+        <label for="">Location</label>
+        <input type="text" id="location">
+    </div>
+    <div class="inputContainer">
+        <label for="">Contact Information</label>
+        <input type="text" id="contact">
+    </div>
+    <div class="inputContainer">
+        <label for="">Small discritption</label>
+        <input type="text" id="discritption">
+    </div>
+
+    <div class = "button">
+        <button id = "submitbutton">Submit</button>
+    </div>
+</div>
+
+</body>
+</html>

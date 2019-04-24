@@ -1,0 +1,63 @@
+body{
+    background: rgb(130, 130, 130);
+}
+.Input{
+    padding: 20px;
+}
+button{
+    font-size: 20px;
+    margin: 10px;
+}
+#date{
+    margin-left: 15px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(59, 113, 198);
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+}
+.inputContainer{
+    padding-bottom: 30px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+img{
+    border:15px solid black;
+}
+#Openbutton{
+    background-color: rgb(131, 255, 0);
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#saveButton{
+    background-color: rgb(0, 38, 255);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#randomuser{
+     -webkit-animation: rainbow 3s infinite;
+     border: none;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+}
+
+@-webkit-keyframes rainbow{
+    0%{color: orange;}	
+    10%{color: purple;}	
+      20%{color: red;}
+      40%{color: yellow;}
+      60%{color: green;}
+      100%{color: blue;}
+      100%{color: orange;}	
+  }
